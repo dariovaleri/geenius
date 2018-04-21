@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="source/style.css">
+  <script src="source/typed.min.js"></script>
+</head>
+<body>
+     <div class="main-wrap">
+          <div class="container">
+         <h1 class="message"></h1>
+      </div>
+    </div>
+    <script>
+     var typed = new Typed('.message', {
+  strings: [
+    "Fatti una <em>vita</em>.", 
+    "No, non sono gli immigrati il problema.", 
+    "I tuoi contenuti sui social network sono il vero valore.",
+    "i concerti costano troppo",
+    "La società fa schifo anche per merito tuo.",
+    "Si, puoi fare meglio di così"
+    ],
+  // typing speed
+    typeSpeed: 80,
+        // time before typing starts
+    startDelay: 1200,
+    // backspacing speed
+    backSpeed: 30,
+    // time before backspacing
+    backDelay: 1500,
+    // loop
+    loop: true,
+    // false = infinite
+    loopCount: 5,
+    // show cursor
+    showCursor: false,
+    // character for cursor
+    cursorChar: "___",
+    // attribute to type (null == text)
+    attr: null,
+    // either html or text
+    contentType: 'html',
+    shuffle: true
+});
+    </script>
+
+</body>
+</html>
